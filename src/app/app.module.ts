@@ -12,6 +12,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HttpClientInMemoryWebApiModule, InMemoryDbService } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { SafeHtmlPipe } from './pipes/safe-html.pipe';
+import { RunScriptsDirective } from './directives/run-scripts.directive';
+import { IframeComponent } from './iframe/iframe.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    SafeHtmlPipe,
+    RunScriptsDirective,
+    IframeComponent
   ],
   imports: [
     BrowserModule,
