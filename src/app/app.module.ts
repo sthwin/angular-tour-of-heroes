@@ -14,7 +14,6 @@ import { InMemoryDataService } from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { SafeHtmlPipe } from './pipes/safe-html.pipe';
 import { RunScriptsDirective } from './directives/run-scripts.directive';
-import { IframeComponent } from './iframe/iframe.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +25,6 @@ import { IframeComponent } from './iframe/iframe.component';
     HeroSearchComponent,
     SafeHtmlPipe,
     RunScriptsDirective,
-    IframeComponent
   ],
   imports: [
     BrowserModule,
